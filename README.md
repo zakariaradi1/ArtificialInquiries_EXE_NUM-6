@@ -4,53 +4,71 @@
 
 ### Objectif
 
-Concevoir un test permettant d’évaluer les capacités et les limites d’un LLM sur des tâches professionnelles réelles.
+L’objectif de cet exercice est de sélectionner des tâches professionnelles représentatives afin de construire un test permettant d’évaluer les capacités et les limites des agents/LLM.
 
 ## Ex6a — Classification des tâches
 
-Les tâches sont classées selon trois catégories :
+Les tâches identifiées sont classées selon trois catégories :
 
-- **Business**
-- **Pleasure**
-- **Business + Pleasure**
+- **Business** : tâches principalement professionnelles.
+- **Pleasure** : tâches réalisées avec intérêt ou plaisir.
+- **Business + Pleasure** : tâches appartenant aux deux catégories.
 
-## Ex6b — Core Four
+Cette classification permet d'identifier les tâches les plus pertinentes pour la suite de l'exercice.
 
-Sélection de quatre tâches représentatives de la pratique professionnelle.
+## Ex6b — Choosing Your Core Four
 
-Pour chaque tâche, on étudie notamment :
+Quatre tâches principales (**Core Four**) sont sélectionnées parmi les tâches précédentes.
 
-- la possibilité de délégation à l’IA ;
-- le niveau de confiance ;
-- l’hésitation à déléguer.
+La sélection prend en compte :
 
-## Ex6c — Évaluation
+- l’importance professionnelle de la tâche ;
+- sa diversité ;
+- la possibilité de la déléguer à un LLM ;
+- le niveau de confiance envers l’IA ;
+- l’hésitation éventuelle à déléguer la tâche.
 
-Définition des critères permettant d'évaluer les résultats produits par l’IA :
+Les quatre tâches doivent permettre de réaliser un test représentatif des capacités d’un LLM.
 
-- pertinence ;
-- réussite ;
-- limites ;
-- besoin de validation humaine.
+## Ex6c — What's on the Line?
+
+Pour chaque Core Task, l’exercice consiste à définir :
+
+- le **Task Fit** ;
+- la **Professional Relevance** ;
+- le **Personal Outcome** ;
+- les critères permettant de distinguer un **Failure**, un résultat **Good Enough** et un **Success** ;
+- les attentes vis-à-vis du résultat : **Terrible**, **Pretty Bad**, **Good Enough** ou **Excellent**.
+
+Ces éléments serviront ensuite à évaluer les résultats produits par les différents modèles d’IA.
 
 ## Diagramme de classes
 
-Le diagramme de classes de l’exercice est réalisé avec **Mermaid**.
+Le diagramme de classes est réalisé avec **Mermaid**.
+
+Il représente :
+
+- les tâches ;
+- les catégories Business / Pleasure ;
+- les quatre Core Tasks ;
+- l’évaluation des tâches ;
+- les critères de résultat ;
+- les niveaux d’attente.
+
+Le diagramme est **interactif et cliquable** afin de faciliter la navigation entre les différentes parties du modèle.
 
 Fichier :
 
 `diagram_class.md`
 
-Il représente les relations entre les tâches, leurs catégories, les Core Tasks et leur évaluation.
-
 ## Technologies
 
-- Mermaid
 - Markdown
+- Mermaid
 - Git
 - GitHub
 
-## Structure
+## Structure du dépôt
 
 ```text
 ArtificialInquiries_numEx/
